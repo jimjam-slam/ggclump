@@ -37,6 +37,12 @@ position_clump <- function(seed = NA) {
   )
 }
 
+# size oughtn't be a required aesthetic here, but it sure would be useful.
+# how can i get access to it if it isn't required? maybe inside data? i
+# need to set up somebreakpoints, i think
+# also need to know the geom... this could get super weird for things that
+# aren't points.
+
 #' @rdname ggplot2-ggproto
 #' @format NULL
 #' @usage NULL
